@@ -1,0 +1,1502 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400..800&family=Lora:ital,wght@0,400..700;1,400..700&family=Nanum+Myeongjo&family=Noto+Music&family=Playwrite+DK+Loopet:wght@100..400&family=Playwrite+HR+Lijeva:wght@100..400&display=swap" rel="stylesheet">
+<link rel="icon" href="Logo.png">
+    <style>
+       *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+      
+@media(width>1000px){
+    .qw{transition: 1s;
+            display: block;position: fixed;left:-350px;top:80px ;
+            background-color: rgb(59, 61, 62);z-index: 2;
+        }
+        .a{
+            position: block;
+            left: 307px;
+        }
+
+        .block{position: fixed;
+    width: 312px;z-index: 5;transition: 1s;
+    left: -2px;display: inline-block;
+    height: 100vh;
+    background-color: rgba(41, 39, 52,1);
+}
+img{
+}
+.w{
+    position:relative;
+    top: 0px;right: 0;
+    float: right;
+    z-index: 2;padding:3px 7px; 
+}
+.div{
+    transition: 1s;
+    position: relative;
+   float: right; 
+    left: -0px;
+    padding: 30px 80px;
+    word-wrap: break-word;
+    top: 50px;
+   width: 1210px;
+    min-height: 100vh;
+    background-image: url("paper4.png");
+}
+.paper2{
+    transition: 1s;
+   width: 100%;
+}
+.slide{position: fixed;
+    left: -313px;
+}
+.buttonr{
+    position: absolute;
+    left: 61%;
+    width: 39px;top: 5px;
+    height: 39px;
+    background-color: rgb(67, 67, 67);
+    border: 2px solid rgb(59, 58, 58);
+   
+}
+.link{ 
+    display: block;
+    width: 150px;color: rgba(240, 248, 255,0.85);
+    height: 50px;
+    padding:10px 15px;
+    border-bottom: 3px solid rgb(209, 209, 209);
+    background-color: rgba(109, 111, 113,1);
+}
+.button{display: block;position: relative;top: 100px;
+    width: 100%;
+    height: 70px;
+    background-color: rgba(85, 93, 100,0.5);
+    border: none;
+    color: rgba(240, 248, 255,0.85);
+    font-size: 20px;
+    font-family: "Lora", serif;
+    border-bottom: 3px solid rgba(123, 123, 123);
+
+}
+.onclick{
+
+}
+.button:has(.onclick) .button:not(.onclick){
+    scale: 0.7;
+}
+.kratko{
+    display: block;position: relative;top: 100px;
+    width: 100%;
+    height: 50px;
+    background-color: rgba(64, 67, 69, 0.5);
+    border: none;
+    color: rgba(240, 248, 255,0.85);
+    font-size: 20px;
+    font-family: "Lora", serif;
+    border-bottom: 3px solid rgba(123, 123, 123);
+}
+.dw{transition: 0.4s;
+    padding-left: 0px;
+    position: absolute;
+    left:5%;top: 5px;
+    background-color: rgb(81, 81, 81);
+    width: 100px;
+    height: 39px;
+    
+    font-size: 30px;z-index: 5;
+    color: beige;
+}
+.ddw{
+    background-color: #2e2d2d;
+}
+.qww{
+    position: fixed;
+    left: 300px;
+}
+.a1{padding-left: 10px;
+    position: absolute;font-family: "Nanum Myeongjo", serif;
+    left: 41%;top: 5px;
+    background-color: rgb(81, 81, 81);
+    width: 300px;
+    height: 39px;
+    font-size: 30px;
+    color: beige;
+}
+.bb{
+    position: fixed;
+    left: 700px;
+}
+.clas{
+    position: fixed;
+  
+    top: 0px;
+    height: 50px;
+    width: 100%;
+    background-color:rgb(44, 44, 44);
+}
+.image{
+    position:relative;
+    right: 0;
+    top: 0px;
+    float: right;
+    z-index: 2;padding:3px 7px;
+    background-color: aqua;
+}
+a{
+    color: blue;
+    font-weight: 800;
+}
+.notes{
+    position: absolute;
+    color: rgba(255, 255, 255,0.97);
+    font-size: 38px;
+    left: 34.8%;
+    z-index: 8;
+}
+.t{
+    position: relative;
+top: 10px;
+}
+.divv{
+    position: relative;
+    top: -50px;
+}
+.q{
+    color: #343469;
+    position: relative;
+
+}
+.q:before,.q:after{
+    display: block;
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;z-index: 9;
+    -webkit-transition: opacity 0.4s;
+    -moz-transition: opacity 0.4s;
+    transition: opacity 0.4s;
+    left: 50%;
+}
+
+.q:before{
+
+    width: 200px;
+    background-color: rgb(180, 180, 180);
+    border-radius: 4px;
+    bottom: 30px;
+    
+    margin-left: -100px;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: center;
+word-wrap: break-word;
+  
+    color: rgb(31, 31, 31);
+    content: attr(txt);
+}
+
+
+.q:after{
+content: "";
+border-top: 10px solid rgb(180, 180, 180);
+border-left: 10px solid  transparent;
+border-right: 10px solid transparent;
+bottom: 20px;
+margin-left: -10px;
+}
+.q:hover:before,
+.q:hover:after{
+    visibility: visible;
+opacity: 1;
+}
+
+
+.i{
+    color: #2d2d5d;
+    position: relative;
+
+}
+.i:before,.q:after{
+    display: block;
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;z-index: 9;
+    -webkit-transition: opacity 0.4s;
+    -moz-transition: opacity 0.4s;
+    transition: opacity 0.4s;
+    left: 50%;
+}
+
+.i:before{
+
+    width: 400px;
+    background-color: rgb(180, 180, 180);
+    border-radius: 4px;
+    bottom: 30px;
+    
+    margin-left: -200px;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: center;
+word-wrap: break-word;
+  
+    color: rgb(31, 31, 31);
+    content: attr(txt);
+}
+
+
+.i:after{
+content: "";
+border-top: 10px solid rgb(180, 180, 180);
+border-left: 10px solid  transparent;
+border-right: 10px solid transparent;
+bottom: 20px;
+margin-left: -10px;
+}
+.i:hover:before,
+.i:hover:after{
+    visibility: visible;
+opacity: 1;
+}
+
+
+}
+
+   
+@media(width<1000px){
+    .qw{transition: 1s;
+            display: block;position: fixed;left:-350px;top:80px ;
+            background-color: rgb(59, 61, 62);z-index: 2;
+        }
+        .a{
+            position: block;
+            left: 307px;
+        }
+
+        .block{position: fixed;
+    width: 312px;z-index: 5;transition: 1s;
+    left: -2px;display: inline-block;
+    height: 100vh;
+    background-color: rgba(41, 39, 52,1);
+}
+img{
+}
+.w{
+    position:relative;
+    top: 0px;right: 0;
+    float: right;
+    z-index: 2;padding:3px 7px; 
+}
+.div{
+    transition: 1s;
+    position: relative;
+   float: right; 
+    left: -0px;
+    padding: 30px 80px;
+    word-wrap: break-word;
+    top: 50px;
+   width: 1210px;
+    min-height: 100vh;
+    background-image: url("paper4.png");
+}
+.paper2{
+    transition: 1s;
+   width: 100%;
+}
+.slide{position: fixed;
+    left: -313px;
+}
+.buttonr{
+    position: absolute;
+    left: 61%;
+    width: 39px;top: 5px;
+    height: 39px;
+    background-color: rgb(67, 67, 67);
+    border: 2px solid rgb(59, 58, 58);
+   
+}
+.link{ 
+    display: block;
+    width: 150px;color: rgba(240, 248, 255,0.85);
+    height: 50px;
+    padding:10px 15px;
+    border-bottom: 3px solid rgb(209, 209, 209);
+    background-color: rgba(109, 111, 113,1);
+}
+.button{display: block;position: relative;top: 100px;
+    width: 100%;
+    height: 70px;
+    background-color: rgba(85, 93, 100,0.5);
+    border: none;
+    color: rgba(240, 248, 255,0.85);
+    font-size: 20px;
+    font-family: "Lora", serif;
+    border-bottom: 3px solid rgba(123, 123, 123);
+
+}
+.onclick{
+
+}
+.button:has(.onclick) .button:not(.onclick){
+    scale: 0.7;
+}
+.kratko{
+    display: block;position: relative;top: 100px;
+    width: 100%;
+    height: 50px;
+    background-color: rgba(64, 67, 69, 0.5);
+    border: none;
+    color: rgba(240, 248, 255,0.85);
+    font-size: 20px;
+    font-family: "Lora", serif;
+    border-bottom: 3px solid rgba(123, 123, 123);
+}
+.dw{transition: 0.4s;
+    padding-left: 0px;
+    position: absolute;
+    left:5%;top: 5px;
+    background-color: rgb(81, 81, 81);
+    width: 100px;
+    height: 39px;
+    
+    font-size: 30px;z-index: 5;
+    color: beige;
+}
+.ddw{
+    background-color: #2e2d2d;
+}
+.qww{
+    position: fixed;
+    left: 300px;
+}
+.a1{padding-left: 10px;
+    position: absolute;font-family: "Nanum Myeongjo", serif;
+    left: 41%;top: 5px;
+    background-color: rgb(81, 81, 81);
+    width: 300px;
+    height: 39px;
+    font-size: 30px;
+    color: beige;
+}
+.bb{
+    position: fixed;
+    left: 700px;
+}
+.clas{
+    position: fixed;
+  
+    top: 0px;
+    height: 50px;
+    width: 100%;
+    background-color:rgb(44, 44, 44);
+}
+.image{
+    position:relative;
+    right: 0;
+    top: 0px;
+    float: right;
+    z-index: 2;padding:3px 7px;
+    background-color: aqua;
+}
+a{
+    color: blue;
+    font-weight: 800;
+}
+.notes{
+    position: absolute;
+    color: rgba(255, 255, 255,0.97);
+    font-size: 38px;
+    left: 34.8%;
+    z-index: 8;
+}
+.t{
+    position: relative;
+top: 10px;
+}
+.divv{
+    position: relative;
+    top: -50px;
+}
+.q{
+    color: #343469;
+    position: relative;
+
+}
+.q:before,.q:after{
+    display: block;
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;z-index: 9;
+    -webkit-transition: opacity 0.4s;
+    -moz-transition: opacity 0.4s;
+    transition: opacity 0.4s;
+    left: 50%;
+}
+
+.q:before{
+
+    width: 200px;
+    background-color: rgb(180, 180, 180);
+    border-radius: 4px;
+    bottom: 30px;
+    
+    margin-left: -100px;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: center;
+word-wrap: break-word;
+  
+    color: rgb(31, 31, 31);
+    content: attr(txt);
+}
+
+
+.q:after{
+content: "";
+border-top: 10px solid rgb(180, 180, 180);
+border-left: 10px solid  transparent;
+border-right: 10px solid transparent;
+bottom: 20px;
+margin-left: -10px;
+}
+.q:hover:before,
+.q:hover:after{
+    visibility: visible;
+opacity: 1;
+}
+
+
+.i{
+    color: #2d2d5d;
+    position: relative;
+
+}
+.i:before,.q:after{
+    display: block;
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;z-index: 9;
+    -webkit-transition: opacity 0.4s;
+    -moz-transition: opacity 0.4s;
+    transition: opacity 0.4s;
+    left: 50%;
+}
+
+.i:before{
+
+    width: 400px;
+    background-color: rgb(180, 180, 180);
+    border-radius: 4px;
+    bottom: 30px;
+    
+    margin-left: -200px;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: center;
+word-wrap: break-word;
+  
+    color: rgb(31, 31, 31);
+    content: attr(txt);
+}
+
+
+.i:after{
+content: "";
+border-top: 10px solid rgb(180, 180, 180);
+border-left: 10px solid  transparent;
+border-right: 10px solid transparent;
+bottom: 20px;
+margin-left: -10px;
+}
+.i:hover:before,
+.i:hover:after{
+    visibility: visible;
+opacity: 1;
+}
+
+
+}
+
+
+
+@media (width<700px) {
+    .block{position: fixed;
+    width:100%;z-index: 2;transition: 1s;
+    left: -2px;display: flex; overflow-x: auto;
+    height: 70px;top: 50px;
+    background-color: rgba(41, 39, 52,1);
+}
+.slide{position: fixed;
+    top: -113px;
+}
+    .qw{transition: 1s;
+            display: flex;position: fixed;left:-350px;top:80px ;
+            background-color: rgb(59, 61, 62);
+            overflow-x: auto;z-index: 12;
+        }
+
+
+
+        .a1{padding-left: 10px;
+    position: absolute;font-family: "Nanum Myeongjo", serif;
+    left: 31%;top: 5px;top: 8px;
+    background-color: rgb(81, 81, 81);
+    width: 45%;
+    height: 39px;
+    font-size: 18px;z-index: 12;
+    color: beige;
+}
+      .block  .button{top: 100px;
+   min-width: 200px;
+    height: 60px;
+    background-color: rgba(85, 93, 100,0.5);
+    border: none;
+    color: rgba(240, 248, 255,0.85);
+    font-size: 20px;
+  
+    font-family: "Lora", serif;
+    border-right: 3px solid rgba(123, 123, 123);
+
+}
+.buttonr{
+    position: absolute;
+    left: 77%;
+    width: 39px;top: 7px;z-index: 8;
+    height: 39px;
+    background-color: rgb(67, 67, 67);
+    border: 2px solid rgb(59, 58, 58);
+   
+}
+.block   .kratko{
+    top: 100px;
+   min-width: 200px;
+    height: 60px;
+    background-color: rgba(64, 67, 69, 0.5);
+    border: none;
+    color: rgba(240, 248, 255,0.85);
+    font-size: 20px;
+  
+    font-family: "Lora", serif;
+    border-right: 3px solid rgba(123, 123, 123);
+}
+.dw{transition: 0.4s;
+    padding-left: 0px;
+    position: absolute;
+    left:5%;top: 5px;
+    background-color: rgb(81, 81, 81);
+    width: 50px;z-index: 12;
+    height: 39px;
+    
+    font-size: 30px;z-index: 5;
+    color: beige;
+}
+    .notes{
+    position: absolute;
+    color: rgba(255, 255, 255,0.97);
+    font-size: 38px;z-index: 12;
+    left: 14.8%;
+    z-index: 8;
+}
+.div{
+    transition: 1s;
+    position: relative;
+   float: right; 
+    left: -0px;
+    padding: 30px 80px;
+    word-wrap: break-word;
+    top: 20px;
+   width: 100%;
+    min-height: 100lvh;
+    background-image: url("paper4.png");
+}
+    .clas{
+    position: fixed;
+  
+    top: 0px;z-index: 3;
+    height: 50px;
+    width: 100%;
+    background-color:rgb(44, 44, 44);
+}
+    .q{
+    color: rgb(84, 84, 237);
+    position: relative;
+
+}
+.q:before,.q:after{
+    display: block;
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;z-index: 9;
+    -webkit-transition: opacity 0.4s;
+    -moz-transition: opacity 0.4s;
+    transition: opacity 0.4s;
+    left: 50%;
+}
+
+.q:before{
+
+    width: 200px;
+    background-color: rgb(180, 180, 180);
+    border-radius: 4px;
+    bottom: 30px;
+    
+    margin-left: -100px;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: center;
+word-wrap: break-word;
+  
+    color: rgb(31, 31, 31);
+    content: attr(txt);
+}
+
+
+.q:after{
+content: "";
+border-top: 10px solid rgb(180, 180, 180);
+border-left: 10px solid  transparent;
+border-right: 10px solid transparent;
+bottom: 20px;
+margin-left: -10px;
+}
+.q:hover:before,
+.q:hover:after{
+    visibility: visible;
+opacity: 1;
+}
+
+
+.i{
+    color: #2d2d5d;
+    position: relative;
+
+}
+.i:before,.q:after{
+    display: block;
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;z-index: 9;
+    -webkit-transition: opacity 0.4s;
+    -moz-transition: opacity 0.4s;
+    transition: opacity 0.4s;
+    left: 50%;
+}
+
+.i:before{
+
+    width: 400px;
+    background-color: rgb(180, 180, 180);
+    border-radius: 4px;
+    bottom: 30px;
+    
+    margin-left: -310px;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: center;
+word-wrap: break-word;
+  
+    color: rgb(31, 31, 31);
+    content: attr(txt);
+}
+
+
+.i:after{
+content: "";
+border-top: 10px solid rgb(180, 180, 180);
+border-left: 10px solid  transparent;
+border-right: 10px solid transparent;
+bottom: 20px;
+margin-left: -10px;
+}
+.i:hover:before,
+.i:hover:after{
+    visibility: visible;
+opacity: 1;
+}  
+}
+
+@media (width<500px) {
+    .notes{
+    position: absolute;
+    color: rgba(255, 255, 255,0.97);
+    font-size: 18px;z-index: 12;
+    left: 8.1%;
+    z-index: 8;
+} 
+.dw{transition: 0.4s;
+    padding-left: 0px;
+    position: absolute;
+    left:8%;top: 17px;
+    background-color: rgb(81, 81, 81);
+    width: 50px;z-index: 12;
+    height: 30px;
+    
+    font-size: 10px;z-index: 5;
+    color: beige;
+}
+}
+
+    </style>
+</head>
+<body><div class="notes">Notes</div>
+    <div class="clas">34g5</div>
+    <input type="text" class="a1">
+    
+    <script>
+     
+        let out=document.createElement('button');
+let h=0;
+        let array=
+['hello',
+'new',
+'qwerty',
+'Silesaurus'
+];
+
+let mass=[
+    5,
+    'asd',
+    'p'
+]
+let ob=document.createElement('div');
+function foo(params) {
+  
+
+}
+let name='new'
+let h2=0;
+let h3=0;
+let h4=0;
+let h5=0;
+let h6=0;
+let h7=0;
+let h8=0;
+
+let e1=0
+let Silesaurus=['item1','item2'];
+let array2=[[2,[88,'item1',`wfbvgfgyhbvgcfxrdtyfugbjvhcgxfcyf(рис 2а-д)поперечний
+<br>
+<a>hello</a>
+<br>
+<br>
+<br><br>
+<div class="image">wif<div></div>whdiwh </div>
+ubjvhcghxfrdtfuygijbkvhcgxfdfygkj<img  src="Evve-blend.png" width="500px" height="30px">bhvgcfxdgxfdfygkjfbvgfgyhbvgcfxrdtyfugbjvhcgxfcyfgubjvhcghxfrdtfuygijbkvhcgxfdfygkjfbvgfgyhbvgcfxrdtyfugbjvhcgxfcyfgubjvhcghxfrdtfuygijbkvhcgxfdfygkjfbvgfgyhbvgcfxrdtyfugbjvhcgxfcyfgubjvhcghxfrdtfuygijbkvhcgxfdfygkjfbvgfgyhbvgcfx<div class="image">wif<div></div>whdiwh </div>rdtyfugbjvhcgxfcyfgubjvhcghxfrdtfuygijbkvhcgxfdfygkjfbvgfgyhbvgcfxrdtyfugbjvhcgxfcyfgubjvhcghxfrdtfuygijbkvhcgxfdfygkjfbvgfgyhbvgcfxrdtyfugbjvhcgxfcyfgubjvhcghxfrdtawrzsexdtawrzsexdtawrzsexdtawrzsexdtawrzsexdtawrzsexdtawrzsexdtawrzsexdtawrzsexdtawrzsexdtawrzsexdtawrzsexdtawrzsexdtawrzsexdtawrzsexdtawrzsexawrzsexdtawrzsexdtawrzsexdtawrzsexdtawrzsexdtawrzsexdtawrzsexdtawrzsexdtawrzsexdtawrzsexdtawrzsexdtawrzsexdtawrzsexdtawrzsexdtawrzsexdtawrzsexdtawrzsexdtawrzsexdtawrzsexdtawrzsexdtawrzsexdtawrzsexdtawrzsexdtawrzsexdtawrzsexdtawrzsexdtdtawrzsexdtawrzsexdtawrzsexdtawrzsexdtawrzsexdtawrzsexdtfuygijbkvhcgxfdfygkjfbvgfgyhbvgcfxrdtyfugbjvhcgxfcyfgubjvhcghxfrdtfuygijbkvhcgxfdfygkjfbvgfgyhbvgcfxrdtyfugbjvhcgxfcyfgubjvhcghxfrdtfuygijbkvhcgxfdfygkjfbvgfgyhbvgcfxrdtyfugbjvhcgxfcyfgubjvhcghxfrdtfuygijbkvhcgxfdfygkjfbvgfgyhbvgcfxrdtyfugbjvhcgxfcyfgubjvhcghxfrdtfuygijbkvhcgxfdfygkjfbvgfgyhbvgcfxfbvgfgyhbvgcfxrdtyfugbjvhcgxfcyfgubjvhcghxfrdtfuygijbkvhcgxfdfygkjfbvgfgyhbvgcfxrdtyfugbjvhcgxfcyfgubjvhcghxfrdtfuygijbkvhcgxfdfygkjfbvgfgyhbvgcfxrdtyfugbjvhcgxfcyfgubjvhcghxfrdtfuygijbkvhcgxfdfygkjfbvgfgyhbvgcfxrdtyfugbjvhcgxfcyfgubjvhcghxfrdtfuygijbkvhcgxfdfygkjfbvgfgyhbvgcfxrdtyfugbjvhcgxfcyfgubjvhcghxfrdtfuygijbkvhcgxfdfygkjfbvgfgyhbvgcfxrdtyfugbjvhcgxfcyfgubjvhcghxfrdtfuygijbkvhcgxfdfygkjfbvgfgyhbvgcfxrdtyfugbjvhcgxfcyfgubjvhcghxfrdtfuygijbkvhcgxfdfygkjfbvgfgyhbvgcfxrdtyfugbjvhcgxfcyfgubjvhcghxfrdtfuygijbkvhcgxfdfygkjfbvgfgyhbvgcfxrdtyfugbjvhcgxfcyfgubjvhcghxfrdtfuygijbkvhcgxfdfygkjfbvgfgyhbvgcfxrdtyfugbjvhcgxfcyfgubjvhcghxfrdtfuygijbkvhcgxfdfygkjfbvgfgyhbvgcfxrdtyfugbjvhcgxfcyfgubjvhcghxfrdtfuygijbkvhcgxfdfygkjrdtyfugbjvhcgxfcyfgubjvhcghxfrdtfuygijbkvhcgxfdfygkjfgubjvhcghxfrdtfuygijbkvhcgxfdfygkjbhv<img  src="Evve-blend.png" width="500px" alt="">gcfxdzawrzsexdtcfyguhbgvctrttfvgbyuhnie`,'qwfegr'],[1,'item2','link2']],[7,[1,8,3,9,7,5],[1,'item1','link1',6,8,3],[1,'item2','link2'],[1,'item3',6],[1,'item4',6],[1,'item5',6],[1,'item6',6,85]],[1,[1,'ifeb','foeji'],[],[]],
+[5,[88,'вступ',`с частиною широкого <a class="q" txt="відрізок часу дє зїявилиь пер
+ щі динозаври">тріасового</a> випромінювання <a class="q" txt="це єволюційна група до якої входять птерозаври та дінозаври">архозаврів</a>.ґ<br> Для більшості силезаврів характерні тонкі кінцівки та «дзьобоподібний» виступ від переднього кінчика нижньої щелепи.<br> У той час як ці рептилії присутні в літописі скам'янілостей середнього та верхнього трасу, не було повідомлено про жодні записи з юрського періоду чи молодших шарів.<br><br> Силезаври особливо цікаві через їхні тісні філогенетичні спорідненості з динозаврами, у кількох дослідженнях силизаври вважаються найближчими еволюційними родичами динозаврів. З іншого боку, існують альтернативні гіпотези, згідно з якими силезаврів відновлюють як представників Ornithischia. Цей останній сценарій підтримує дві основні моделі силизаври є частиною монофілетичного угруповання (тобто широкої Silesauridae), яка є сестринською групою «традиційних/основних орнітісхій». або силизаври зібрані в <a class="q" txt="група видів зі спільним предком">клади</a> з низьким розмаїттям, що представляють стовбурову групу, що веде до «традиційних/основних орнітісхій». Незважаючи на конкуруючу спорідненість сілезаврів, ці рептилії є ключовими <a class="q" txt="група яка мостить в собі інщи группи з схожими яклстями найменший таксон це вид">таксонами</a> для розуміння світанку походження пташиного стебла. Сілезаври є найдавнішими динозавроморфами, про які в літописі скам'янілостей, що дає підказки щодо плану тіла предків біогеографії групи. Знахідки середнього трасу в Бразилії, Танзані та Замбі підтверджують гондванське походження силезаврів, тоді як у верхньому трасі ця група була присутня в обох, Гондвані, Лавразії.<br> Незважаючи на те, що скам'янілості з Південної Америки обмежені Аргентиною та Бразилією, вони особливо багаті. Є два види з Аргентини: Lewisuchus admixtus з ранніх <a class="q" txt="шар землі віком від 227 до 237 мільонів років">карнійських шарів</a> формації Chañares, i ignotosaurus fragilis, з пізнього карнійського періоду формації Ischigualasto!!!<br><br> У Бразилії також є два види: Gamatavus antiquus, з ладинського/раннього карнійського періоду формації Санта-Марія; і Sacisaurus agudoensis, a раннього норіанського періоду формаці Катурріта.<br> Крім того, є силезаври без назви, про яких повідомляється, з середньо-пізніх карнійських шарів формації Санта-Марія. Цей безіменний матеріал примітний тим, що він походить із найдавніших однозначних пластів динозаврів у всьому світі, що є доказом спільного існування різних груп пан-авів у цей вирішальний момент. На жаль, нестача силезаврів із цих шарів затьмарює наше екологічних зв'язків між цими групами. Тут ми описуємо перші види силезаврів із карнійських (верхньотріасових) шарів із Бразилії та обговорюємо його роль в еволюційній історії групи  <br>  цю інформацію було взято та видозмінено з сайту Nature<br>оригілал створено Родріго Т. Мюллер і Maypicio C. Гарсія <a href="https://www.nature.com/articles/s41598-023-32057-x?error=cookies_not_supported&code=830e3f76-a442-45bf-9316-93fce70978fd">оригінал</a><br> `,'вчені з бразилії знайшли стегнову нового виду <a class="q" txt="предок динозаврів">сілезавра</a> який набагато більший за інший. Ще він жив на прикинці пріасового періоду. <br> Це значить що сілезаври та перщі динозаври жили в один и той самий час.  '],[1,'Матеріал і методи',`
+
+Інституційні скорочення
+
+CAPPA/UFSM Centro de Apoio à Pesquisa Paleontológica da Quarta Colónia da Universidade Federal de Santa Maria, São João do Polésine, Rio Grande do Sul, Brazil, CRILAR-Pv Paleontologia de Vertebrados, Centro Regional de Investigaciones Científicas y Transfercia Tecnologica, Anillaco, Аргентина; MNA Museum of Northern Arizona, Флагстафф, США, NMMNH New Mexico Museum of Natural History and Science, Альбукерке, США, UFSM Laboratório de Estratigrafia e Paleobiologia, Universidade Federal de Santa Maria, Santa Maria, Rio Grande do Sul, Brazil.<br><br>
+
+Зразок
+
+Описані зразки зберігаються в колекці палеохребетних Centro de Apoio à Pesquisa Paleontológica da Quarta Colonia/Universidade Federal de Santa Maria (CAPPA/UFSM) під номером зразка САРРА/UFSM 0374 та CAPPA/UFSM 0375.<a class="i w" txt="Походження Атmanasaurus nesbitti gen, et sp. лис. (а) Поверхневий розподіл геологічних одиниць у районі, що зображує розташування ділянки Піветта. (b) Загальний вигляд ділянки Pivetta. (с) гіпотетична реконструкція скелета Amanasaurus nesbitti gen, et sp. лис. із зображенням (помаранчевим кольором) збережених частин. (d )CAPPA/UFSM 0374 (голотип), проксимальна частина правої стегнової кістки у вигляді спереду (е) CAPPA/UFSM 0375 (згаданий зразок), дистальна частина лівої стегнової кістки у вигляді спереду. Малюнки створено за допомогою GIMP"><img src="Silesaurus.jpg" width="300px"></a><br><br>
+
+Філогенетичний аналіз
+
+Щоб отримати доступ до філогенетичної спорідненості нового силезавра, його оцінили в матриці даних Norman et al 10, яка є модифікованою версією матриці даних, опублікованою Muller & Garcia,<br> Це найповніший набір даних про силезаврів. Крім того, ми вставили Gamatavus antiquus, нещодавно описаного силизавра з Бразилії. Його оцінка була проведена шляхом безпосереднього дослідження голотипу (UFSM 11348а, часткова права клубова кістка) та зразка, що передається (UFSM 113485, часткова ліва стегнова кістка) Chilesaurus diegosuarezi був видалений з матриці даних через його суперечливу спорідненість 20.<br> Найбільш економні дерева були відновлені в програмному забезпеченні TNT v. 1.522.<br> Усі отримали однакову вагу, а також символи 4, 13, 18, 25, 63, 82, 84, 87, 89, 109, 142, 166, 174, 175, 184, 186, 190, 201, 203, 205, 209, 212, 225, 235, 236, 239, 250 і 256 розглядалися як додаткові (впорядковані).<br> Euparkeria використовувався для вкорінення найбільш ощадливих дерев, які були побудовані за допомогою випадкової послідовності додавання повторного з'єднання дерева навпіл (TBR), що включало 1000 реплікатів дерев Вагнера (з випадковим насінням = 0), TBR і заміну гілок (зберігаючи 20 дерев), за повторність).
+
+<br><br>Критерії оцінки довжини стегнової кістки
+
+Загальну довжину кістки CAPPA/UFSM 0374 : CAPPA/UFSM 0375 оцінювали за двома звичайними лінійними регресіями найменших квадратів із використанням набору даних Barrett et al. 2 Цей набір даних вимірювання 31 стегнової кістки різних орнітодранів тріасу та нижньої юри Довжину стегнової кістки CAPPA/UFSM 0374 оцінювали за допомогою проксимальної довгої осі головки стегнової кістки як незалежної змінної, тоді як довжину стегноВОЇ КІСТКИ САРРА/UFSM 0375 оцінювали за допомогою дистальної довгої осі як незалежної змінно.   <br><br><br>Сайт Pivetta (29°39′37° пд. ш. 53°25′51° зх. д.), між муніципалітетами Рестінга-Сека та Сан-Жуан-ду-Полесіне, Ріу-Гранді-ду-Сул, Бразилія.<br> Нижня частина канделарійської послідовності 29 суперпоследовательності Санта-Марія, басейн Парани.<br> Присутність ринхозавра Hyperodapedon поміщає ділянку Pivetta в зону збору Нурeгodapedon, яка вважається віком від середини до пізнього карнію (пізній тріас) відповідно до високоточної U-Pb геохронології цирконів, яка вказала на максимальний вік 233,23 ± 0,73 млн років тому.`],
+[1,'опис',`Amanasaurus nesbitti від усіх інших відомих силазаврів порівнянним матеріалом (локальні
+
+аутапоморфа) задньомедіальний горбок головки стегнової кістки, зменшений до повної відсутності <a class="q" txt="передній край">вентральний край</a> передньомедіального бугра перевищує край головки стегнової кістки, наявність fossa trochanterica; відсутність піднятого передньобокового рубця, наявність напівкруглого рубця на заднедорзальной поверхні головки стегнової кістки, щілина між проксимальним кінчиком переднього вертлюга та <a class="q" txt="це частина стегнової кістки яка знаходиться поміж шарнірів">діафізом стегнової кістки</a> (див. Додаткову інформацію для диференціальної діагностики).
+<br><br>
+
+Головка стегнової кістки Amanasaurus nesbitti добре збереглася (рис 2а-e). Поверхня кістки зберігає дрібні деталі, зразок не має ознак осадового стиснення.<br> Подібно до інших силезаврів, головка стегнової кістки розширена в поперечному напрямку.<a class="i w" txt="Голотипі згаданий зразок Amanasaurus nesbitti gen, et sp. лис. із канделарійської товщі (середина-пізній карній) суперпослідовності Санта-Марія, південна Бразилія. Голотип (CAPPA/UFSM 0374) у передньому (а), латеральному (в), проксимальному (с), медіальному (d) та задньому (е) видах Відповідний зразок (CAPPA/UFSM 0375) у передньому (1), латеральному (д), задньому (h) дистальному (1) виглядах. alt передньо-латеральний бугор, aть передньо-медіальний бугор, у передньому trochanter, cl cleft, ctfb crista tibiofibularis, dit dorsolateral trochanter, ditp posterior partion of dorsolateral trochanter, fo foramen, fot fossa trochanterica, gf large trochanter, ic lateral condyle, lia linea intermuscularis cranialis, то медіальний виросток, ms м'язовий рубець, без виїмки, рд проксимальна борозна, роб підколінна ямка, scs субциркулярний рубець. Малюнки створено за допомогою GIMP 2.8 (https://www.gimp.org/)."><img src="noga.jpg" width="400px"></a><br> Ця умова відрізняється від Am. nesbitti від більшості динозаврів <a class="q" txt="предки птерозаврів">птерозавроморфів</a>. У <a class="q" txt="ближній. Розташований ближче до середини площин тіла">проксимальному</a> вигляді він має трикутну форму з глибокою прямою борозенкою, що розділяє передню і задню поверхні (рис 2с).<br> Ця борозенка відсутня у Lewisuchus <a class="q" txt="ближче до центру">Медіальна</a> суглобова поверхня пряма, тоді як у Ladmixtus 1 Aslisaurus kongwe вона закруглена.<br> Передньолатеральний бугор добре розвинений, а також передньомедіальний. Останній утворює заднемедіальний край головки кістки (рис 2е), обмежуючи крайне розширення суглобової поверхні проксимальної частини голівки стегнової кістки, як, наприклад, у Sacisaurus agudoensis 14.<br><br> На відміну інших бульб задньомедіальний горбок розвинений слабко, у проксимальному вигляді відсутній борозна для зв'язки каптиса стегна. Заднемедіальний горбок L admixtus, As. kongwe ta Eucoelophysis baldwini добре розвинений 12-35, чим відрізняється від нового зразка.<br> Є редукована fossa trochanterica (рис 2c), що нагадує As. kongwe Y L. admixtus він добре розвинений 19, тоді як в інших силезаврів він відсутній. Великий вертлуг скошений, тоді як у лагерпетид він заокруглений.<br> У зразка відсутня «структура виступу» на проксимальній поверхні, про яку повідомляють деякі зразки opolensis. Присутня типова «виїмка» між вентральним переходом від голівки стегнової кістки до діафіза (рис 2а). Це відрізняється від увігнутого вирізу, який позначає перехід у більшості Динозаврів. Крім того, на медіальній суглобовій поверхні головки стегнової кістки над вирізкою с поперечний рубець (рис 2г). В Si opolensis є подібний рубець, який утворює вентральний край точки прикріплення клубово-стегнової зв'язки.<br> На гомологічній поверхні Ѕа є гладка поверхня agudoensis 14. Його поверхня зменшена в Ат, nesbitti. На задній поверхні серця стегнової кістки є незвичайний субкруговий рубець (рис 2d), трохи нижче fossa-trochanterica. Про ідентичний шрам не повідомлялося в
+
+інших силезаврів. Передня поверхня дорсолатерального вертлюга гостра і зливається з діафізом значно нижче проксимальної суглобової поверхні.<br> Навпаки, цей вертлуг закруглений для всіх онтогенетичних стадій, відібраних для As. kongwe. На бічній поверхні цього вертлюга проходить проксимодистально орієнтований рубець, тоді як поперечний рубець тягнеться від вертлюга до заднього краю діафіза стегнової кістки.<br> Піднятий передньолатеральний рубець відсутній, тоді як про нього повідомляється для L. admixtus, As. kongwe ta St. opolensis Дійсно, на гомологічній поверхні с слабкі смуги. Передній вертлюг пальцеподібний, тягнеться проксимодистально. Його проксимальний кінчик відокремлений від стегнової кістки щілиною, як, наприклад, у кількох силезаврів, прюнодонтів і тероподів.<br><br> З іншого боку, у L. admixtus (As. kongwe проксимальний кінчик плавно зливається з діафізом стегнової кістки, без щілини. У той час як проксимальний кінчик переднього вертлуга не з'єднаний зі стовбуром у новому зразку, він набагато менш розширений, нок крилоподібний вертлуг у кількох пріонодонтів.<br> Стан нового зразка також відрізняється від пірамідального переднього вертлуга деяких теропод. Проксимальний відділ linea intermuscularis cranialis лежить медіальніше переднього вертела.<br> Відсутня в Sa. agudoensis. Отвір пронизує діафіз стегнової кістки медіально від проксимальної частини краніальної можм'язової лінії.<br> Трохантерна поличка відсутня, стан спільний з Sa. agudoensis, E. baldwini, Kwanasaurus williamparkeri, Diodorus scytobrachion та prionodontians.<br><br><br>
+
+Згадана <a class="q" txt="нижня частина">дистальна частина</a> лівої стегнової кістки має добре збережену поверхню кістки.<br> 3. іншого боку, кістка На відміну від lagerpetids, передня поверхня є опуклою в <a class="q" txt="далекий">дистальному</a> вигляді, без будь-яких ознак розгинальної борозенки.<br> Існує рельєфний рубець, що тягнеться від передньої до бічної поверхні кістки, що є звичайним для динозавроморфів.<br> <a class="q" txt="з боку">Латеральний</a> край латерального виростка заокруглений у дистальному вигляді, і мож цим виростком і crista tibiofibularis є заглиблення. Точний розмір форма crista tibiofibularis медіального виростка невідомі.<br> У той час як підколінна ямка збереглася не повністю, вона подовжена проксимодистально , що нагадує стан більшості силезаврів і афанозаврів. Піднятий рубець проходить від поверхні над crista tibiofibularis у ямку. <br> `],[1,'філогенетичний фналіз',`Евристичний пошук відновив 1728 найбільш економних дерев (МРТ) по 1074 кроки кожне з індексом узгодженості 0,298 та індексом збереження 0,689. <br><br>Загальна топологія дерева суворого консенсусу відповідає топологи, яку відновили Norman et al. 10, де силезаври гніздяться в групах з низьким різноманіттям у гілці, яка веде до Prionodontia (тобто традиційних орнітісхій). <br>Amanasaurus nesbitti як парапредентатан у Ornithischia у всіх МРТ. <br>Новий таксон гніздиться в трихотомі з Ignotosaurus fragilis i Silesarus opolensis, яка підтримується ямкою на вентральній поверхні постацетабулярної частини клубової кістки (гл. 174:12), пластинка клубової кістки вдвічі глибша або більша кульшову западину (гл. 1870 1), а борозна зв'язки голівки стегнової кістки не утворює медіальної екскавації в проксимальному вигляді (гл. 204:01). Тільки останній символ закодований для Am. nesbitti. Дотримуючись філогенетичного визначення, запропонованого Nesbitt et al. 4, клада, що підтримується відсутністю вертлюжної полиці стегнової кістки (гл. 215.01) i facies articularis antitrochantericа, що не опускається (гл. 216:01). <br>Крім тогo, Saltopus elginensis гніздувався як сестринський таксон Lewisuchus admixtus і вперше був знайдений як орнітіш. <br><br>Однак цей результат слід сприймати обережно, враховуючи фрагментарність і складність інтерпретації голотипу. <br>У попередніх ітераціях цього набору даних Ѕa. elginensis був знайдений як рано розходиться саурисхій,<a class="i w" txt="Результати аналізів. (а) Відкаліброване за часом скорочене суворе дерево консенсусу, що зображує філогенетичне положення Атanasaurus nesbitti gen, et sp. лис. (b) Ліва (перевернута) стегнова кістка Scutellosaurus lawleri (MNA 175) у виді збоку. (с) Ліва (перевернута) стегнова кістка Eucoelophysis baldwini (NMMNH P-22298) у вигляді збоку. (1) Права стегнова кістка Атanasaurus nesbitti gen. et sp. лис. (CAPPA/UFSM 0374) вид збоку. (е) Права стегнова кістка Lewisuchus admixtus (CRILAR-Pv 552) у вигляді збоку (1) Поява Пан- Авес відповідно до зон асоціації Бразилії від середнього до верхнього тріасу; (9) Діаграма логарифмічної 10 -трансформованої проксимальної довгої осі стегнової кістки проти логарифмічної 10-трансформованої довжини стегнової кістки окремих орнітодіранів, що зображує (фіолетовий трикутник) розрахункову довжину стегнової кістки для голотипу Аmanasaurus nesbitti gen, et sp. лис (1) Діаграма логарифмічної та -трансформованої дистальної довгої осі стегнової кістки проти логарифмічної 10 -трансформованої довжини стегнової кістки окремих орнітодіранів, що зображує (фіолетовий трикутник) розрахункову довжину стегнової кістки для згаданого зразка Аmanasaurus nesbitti gen, et sp. лис. Малюнки створено за допомогою GIMP 2.8 ("><img src="genetic.jpg" width="400px"></a> сестра Eodromaeus murphi як динозавроморф не динозавра`],
+[1,'обговорення',`
+Amanasaurus nesbitti має типові ознаки силезаврів, такі як наявнІСТЬ ВИМКИ МІж <a class="q" txt="передній">вентральним</a> переходом від головки стегнової кістки до діафіза та прямою медіальною суглобовою фасеткою проксимальної частини в проксимальному вигляді 1.11.14.28.25. Тому Ат, nesbitti можна сміливо віднести до силезавра.<br> Хоча у згаданого зразка відсутній матеріал, що перекривається з голотипом, збережена дистальна частина стегнової кістки нагадує таку в інших силезаврів (наприклад, наявність подовженої підколінної ямки) і не має типових ознак інших споріднених груп. Отже, цей екземпляр відноситься до Ат. nesbitti на основі геалогічного контексту та спільної морфології з іншими силезаврами.
+
+<br>Щодо загальної <a class="q" txt="будови">морфології</a> Ат. nesbitti, він має унікальний набір плезоморфних і а поморфних рис для силезаврів, що узгоджується з його філогенетичним стратиграфічним положенням.<br><br> Він зберігає fossa trochanterica, рису, присутню у старих силезаврів, таких як Lewisuchus admixtus Asilisaurus kongwe 19.35 Навпаки, заднемедіальний бугор надзвичайно зменшений, що нагадує стан, який спостерігається у пізніх розходяться форм, таких як у Sacisaurus agudoensis Kwanasaurus williamparkeri. Мабуть, «перехідна» форма переднього вертлуга є однією з найцікавіших особливостей нового таксону. Передній вертел Динозаврів і близьких до них груп зазвичай розглядається як точка вставлення m. iliofemoralis 40.42 y ранніх силезаврів (наприклад, L. admixtus, As. Kongwe, Gamatavus antiquus) проксимальний кінчик
+
+повністю з'єднаний із діафізом стегнової кістки, тоді як у пізніх розходяться форм (наприклад, Eucoelophysis baldwini) його кінчик повністю відокремлений від валу позначеною щілиною 15.<br> Цей стан інтерпретується як рання стадія «крилоподібного» переднього вертлуга пріонодонтів iз додатковою підтримкою спорідненості з орнітішами у силезаврів 11.14 B Am, nesbitti, передній вертлуг менш виражений, ніж у посткарнійських силезаврів, однак він містить щілину, що відокремлює
+
+проксимальний кінчик від діафіза стегнової кістки. Новий таксон включає найдавнішого який виражає цю умову, показуючи карнійське походження цієї особливості Новий силезавр забезпечує подальшу підтримку присутності силезаврів у зоні збирання гіперодаледонів
+(AZ) Бразилії. Про цих рептилій повідомляється для трьох із чотирьох AZ, віднесених до середнього та верхнього тріасу 8.17. Поточний сценарій зображує повну відсутність силезаврів та інших пан-авів виключно в Santacruzodon AZ, вибірки погано порівняно з іншими AZ, його географічне поширення обмежене.<br> Крім того, присутність нового силезавра в карнійських шарах Південної Бразилії підтверджує спільне існування різних груп Пан-Авес під час початкової еволюці динозаврів (прибл. 230 млн років).<br> Новий сілезавр походить із оголення, де були виявлені лагерпетиди, ранні зауроподоморфи та герреразавриди 15.16.48. <br>Це різноманіття Pan-Aves перевершує різноманіття старих AZ з Бразилії (тобто Dinodontosaurus AZ Ta Santacruzodon AZ), будучи порівнянним з різноманіттям Riograndia AZ. Подібне розмаїття також повідомляється про одновікову формацію Ischigualasto 1, де також повідомляється про силезавра (тобто Ignotosaurus fragilis).<br><br> Розумно зробити висновок, що ландшафти, які були свідками ранньої еволюці динозаврів, також підтримували широкий спектр пташиних архозаврів.<br> Крім того, згідно з оцінками довжини стегнової кістки, проведеними тут, Am. nesbitti досяг такого ж розміру ранніх зауроподоморфів. Розрахункова довжина стегнової кістки голотипу (CAPPA/UFSM 0374) становить 121 мм, тоді як для згаданого зразка (CAPPA/UFSM 0375) вона становить 143 мм.<br> Для порівняння, довжина стегнової кістки екземплярів раннього зауроподоморфа Buriolestes schultzi коливається від 89 мм (ULBRA-PVT056) до 138 мм (ULBRA-PVT28049). Ці зразки були викопані з корелятивних шарів, які знаходяться на відстані 500 м від місця Піветта. <br>Це перший випадок, коли силезаврів, які за розміром конкурують з динозаврами, знайшли з найдавніших безсумнівних пластів динозаврів, що ставить під сумнів ідею про те, що у фаунах, де силезаври однозначні динозаври зустрічалися разом, силезаври були відносно меншими Це відкриття підкріплює складний сценарій щодо випромінювання Пан-Авеса протягом тріасу.<br><br> Безумовно, план тіла ранніх дивергентних форм, перевершуваних пізніми дивергентними динозаврами, більше не вписується в поточні моделі. <br>Насправді силезаври незалежно від їхнього філогенетичного положення зберігалися протягом більшої частини трасового перюду, з плезіюморфним розміром тіла, що розвивався на світанку динозаврів, замість того, лінії сілезаврів зменшувалися в розмірі тіла з часом.`]]
+
+]
+
+let mas=[5,9,7];
+let tag=0
+
+let buttonr=document.createElement('button');
+let button=document.createElement('button');
+let kratko=document.createElement('button');
+let button2=document.createElement('button');
+let button3=document.createElement('button');
+let button4=document.createElement('button');
+
+let ui=document.createElement('div');
+let div=document.createElement('div');
+let btn=document.createElement('button');
+let button5=document.createElement('button');
+let button6=document.createElement('button');
+let button7=document.createElement('button');
+let button8=document.createElement('button');
+let dw=document.createElement('button');
+buttonr.innerHTML='<svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#ffffff"><path d="M784-120 532-372q-30 24-69 38t-83 14q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l252 252-56 56ZM380-400q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z"/></svg>';
+buttonr.classList.add('buttonr')
+document.body.appendChild(buttonr);
+buttonr.addEventListener('click',()=>{
+   let a= document.querySelector('.a1').value;
+   out.setAttribute('id',a)
+   out.innerHTML=a;
+    if(a=='hello'){tag=1};
+   console.log( mas[tag])
+
+
+
+
+
+})
+//document.body.appendChild(out);
+
+buttonr.addEventListener('click',()=>{let b= out.id;
+    console.log(b)
+    name=b;
+
+
+
+
+    if(h==1){
+        ui.removeChild(button)
+       
+      
+      h=0;
+        
+       
+    }
+    if(h2==1){ ui.removeChild(button3);h2=0}
+    if(h8==1){ ui.removeChild(kratko);h8=0}
+    if(h3==1){  ui.removeChild(button4);h3=0}
+    if(h4==1){  ui.removeChild(button5);h4=0}
+    if(h5==1){ ui.removeChild(button6);h5=0}
+    if(h6==1){ ui.removeChild(button7);h6=0}
+    if(h7==1){
+        ui.removeChild(button8);h7=0}
+
+
+      
+let btn1=0;
+let btn2=0;
+let btn3=0;
+let btn4=0;
+let btn5=0;
+let btn6=0;
+let btn7=0;
+for (let i = 1; i < array2[array.indexOf(name)][0]+1; i++) {
+  //  console.log(array2[array.indexOf(name)][i])
+    if(i==1){btn1=array2[array.indexOf(name)][i]}
+    if(i==2){btn2=array2[array.indexOf(name)][i]}
+    if(i==3){btn3=array2[array.indexOf(name)][i]}
+    if(i==4){btn4=array2[array.indexOf(name)][i]}
+    if(i==5){btn5=array2[array.indexOf(name)][i]}
+    if(i==6){btn6=array2[array.indexOf(name)][i]}
+    if(i==7){btn7=array2[array.indexOf(name)][i]}
+}
+let flag1=1;
+let flag2=0;
+let flag3=0;
+let flag4=0;
+let flag5=0;
+let flag6=0;
+let flag7=0;
+div.innerHTML=btn1[2];
+div.classList.add('div');
+        document.body.appendChild(div)
+
+ui.classList.add('block')
+document.body.appendChild(ui)      
+
+let flag9=0;
+
+dw.classList.add('dw')
+dw.innerHTML='<svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#fff"><path d="M280-280 80-480l200-200 56 56-103 104h494L624-624l56-56 200 200-200 200-56-56 103-104H233l103 104-56 56Z"/></svg>';
+document.body.appendChild(dw)      
+
+
+if(btn1!=0){h=1;
+    if(btn1[0]==1){
+     
+        button.innerHTML=btn1[1];
+        button.classList.add('button')
+        ui.appendChild(button)
+        button.addEventListener('click',()=>{
+            button.style.transition='0.3s'
+            button.style.backgroundColor="#2d2d2d"
+            kratko.style.transition='0.3s'
+            kratko.style.backgroundColor=null
+            button4.style.transition='0.3s'
+            button4.style.backgroundColor=null
+            button3.style.transition='0.3s'
+            button3.style.backgroundColor=null
+            button8.style.transition='0.3s'
+            button8.style.backgroundColor=null
+            button5.style.transition='0.3s'
+            button5.style.backgroundColor=null
+
+            button6.style.transition='0.3s'
+            button6.style.backgroundColor=null
+
+            button7.style.transition='0.3s'
+            button7.style.backgroundColor=null
+      div.innerHTML=btn1[2];
+    
+    })
+    }
+    else if(btn1[0]==88){
+        h8=1;
+    kratko.innerHTML='summary';
+        kratko.classList.add('kratko')
+        ui.appendChild(kratko)
+        kratko.addEventListener('click',()=>{
+      
+
+            kratko.style.transition='0.3s'
+            kratko.style.backgroundColor="#2d2d5d"
+            button8.style.transition='0.3s'
+            button8.style.backgroundColor=null
+            button.style.transition='0.3s'
+            button.style.backgroundColor=null
+            button4.style.transition='0.3s'
+            button4.style.backgroundColor=null
+            button3.style.transition='0.3s'
+            button3.style.backgroundColor=null
+
+            button5.style.transition='0.3s'
+            button5.style.backgroundColor=null
+
+            button6.style.transition='0.3s'
+            button6.style.backgroundColor=null
+
+            button7.style.transition='0.3s'
+            button7.style.backgroundColor=null
+
+      div.innerHTML=btn1[3];
+      
+    
+    }) 
+    button.innerHTML=btn1[1];
+        button.classList.add('button')
+        ui.appendChild(button)
+        button.addEventListener('click',()=>{
+            button.style.transition='0.3s'
+            button.style.backgroundColor="#2d2d2d"
+            kratko.style.transition='0.3s'
+            kratko.style.backgroundColor=null
+            button4.style.transition='0.3s'
+            button4.style.backgroundColor=null
+            button3.style.transition='0.3s'
+            button3.style.backgroundColor=null
+            button8.style.transition='0.3s'
+            button8.style.backgroundColor=null
+            button5.style.transition='0.3s'
+            button5.style.backgroundColor=null
+
+            button6.style.transition='0.3s'
+            button6.style.backgroundColor=null
+
+            button7.style.transition='0.3s'
+            button7.style.backgroundColor=null
+      div.innerHTML=btn1[2];
+      
+    
+    }) 
+    }
+    
+    
+    else{
+   
+        button.innerHTML='<svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#5f6368"><path d="M146.67-160q-27 0-46.84-20.17Q80-200.33 80-226.67v-506.66q0-26.34 19.83-46.5Q119.67-800 146.67-800H414l66.67 66.67h332.66q26.34 0 46.5 20.16Q880-693 880-666.67v440q0 26.34-20.17 46.5Q839.67-160 813.33-160H146.67Zm0-66.67h666.66v-440H453l-66.67-66.66H146.67v506.66Zm0 0v-506.66V-226.67Z"/></svg>';
+        button.classList.add('button')
+        ui.appendChild(button)
+        button.addEventListener('click',()=>{
+           
+           if(flag1==0){ flag1=+1;grup.classList.remove('a');console.log(flag1)}
+           else{ flag1=0;grup.classList.add('a');}
+    
+        })
+        let grup=document.createElement('div');
+        dw.addEventListener('click',()=>{if(flag9==0){flag1=1;grup.classList.remove('a');console.log(flag9)}})  
+        grup.classList.add('qw')
+        let f=0;
+        document.body.appendChild(grup)
+        for (let j = 1; j < btn1[0]+2; j++) {
+        
+
+
+           let button2=document.createElement('button');
+       button2.innerHTML=btn1[j];
+       button2.classList.add('link');
+       grup.appendChild(button2)
+      button2.addEventListener('click',()=>{
+       
+        div.innerHTML=btn1[j];
+       
+      })
+      j++;
+     
+
+       }
+    
+       
+    }
+}
+
+onclick
+
+if(btn2!=0){h2=1;
+    if(btn2[0]==1){
+       
+        button3.innerHTML=btn2[1];
+        button3.classList.add('button')
+        ui.appendChild(button3)
+        button3.addEventListener('click',()=>{
+                button3.style.transition='0.3s'
+            button3.style.backgroundColor="#2d2d2d"
+            
+            button4.style.transition='0.3s'
+            button4.style.backgroundColor=null
+            button.style.transition='0.3s'
+            button.style.backgroundColor=null
+            kratko.style.transition='0.3s'
+            kratko.style.backgroundColor=null
+            button5.style.transition='0.3s'
+            button5.style.backgroundColor=null
+            button8.style.transition='0.3s'
+            button8.style.backgroundColor=null
+            button6.style.transition='0.3s'
+            button6.style.backgroundColor=null
+
+            button7.style.transition='0.3s'
+            button7.style.backgroundColor=null
+      div.innerHTML=btn2[2];
+    
+    })
+    
+    }else{
+      
+        button3.innerHTML='<svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#5f6368"><path d="M146.67-160q-27 0-46.84-20.17Q80-200.33 80-226.67v-506.66q0-26.34 19.83-46.5Q119.67-800 146.67-800H414l66.67 66.67h332.66q26.34 0 46.5 20.16Q880-693 880-666.67v440q0 26.34-20.17 46.5Q839.67-160 813.33-160H146.67Zm0-66.67h666.66v-440H453l-66.67-66.66H146.67v506.66Zm0 0v-506.66V-226.67Z"/></svg>';
+        button3.classList.add('button')
+        ui.appendChild(button3)
+        button3.addEventListener('click',()=>{
+           if(flag2==0){ flag2=+1;grup.classList.add('a');}
+           else{ flag2=0;flag3=1;grup.classList.remove('a');}
+        })
+        let grup=document.createElement('div');
+        dw.addEventListener('click',()=>{if(flag9==0){flag2=0;grup.classList.remove('a');console.log(flag9)}}) 
+        grup.classList.add('qw')
+        let f=0;
+        document.body.appendChild(grup)
+        for (let j = 0; j < btn2[0]+1; j++) {
+        
+
+
+           let button2=document.createElement('button');
+       button2.innerHTML=btn2[j];
+       button2.classList.add('link');
+       grup.appendChild(button2)
+      button2.addEventListener('click',()=>{
+      
+        div.innerHTML=btn2[j];
+      
+      })
+      j++;
+     
+
+       }
+    
+       
+    }
+}
+
+
+
+
+if(btn3!=0){h3=1;
+    if(btn3[0]==1){
+      
+        button4.innerHTML=btn3[1];
+        button4.classList.add('button')
+        ui.appendChild(button4)
+        
+        button4.addEventListener('click',()=>{
+         button4.style.transition='0.3s'
+            button4.style.backgroundColor="#2d2d2d"
+            button8.style.transition='0.3s'
+            button8.style.backgroundColor=null
+                 button3.style.transition='0.3s'
+            button3.style.backgroundColor=null
+            button.style.transition='0.3s'
+            button.style.backgroundColor=null
+            kratko.style.transition='0.3s'
+            kratko.style.backgroundColor=null
+            button5.style.transition='0.3s'
+            button5.style.backgroundColor=null
+
+            button6.style.transition='0.3s'
+            button6.style.backgroundColor=null
+
+            button7.style.transition='0.3s'
+            button7.style.backgroundColor=null
+      div.innerHTML=btn3[2];
+    
+    })
+    }else{
+    
+        button4.innerHTML='<svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#5f6368"><path d="M146.67-160q-27 0-46.84-20.17Q80-200.33 80-226.67v-506.66q0-26.34 19.83-46.5Q119.67-800 146.67-800H414l66.67 66.67h332.66q26.34 0 46.5 20.16Q880-693 880-666.67v440q0 26.34-20.17 46.5Q839.67-160 813.33-160H146.67Zm0-66.67h666.66v-440H453l-66.67-66.66H146.67v506.66Zm0 0v-506.66V-226.67Z"/></svg>';
+        button4.classList.add('button')
+        ui.appendChild(button4)
+        button4.addEventListener('click',()=>{
+            if(flag3==0){ flag3=+1;grup.classList.add('a');}
+            else{ flag3=0;grup.classList.remove('a');}
+        })
+        let grup=document.createElement('div');
+        dw.addEventListener('click',()=>{if(flag9==0){flag3=0;grup.classList.remove('a');console.log(flag9)}})  
+        grup.classList.add('qw')
+        let f=0;
+        document.body.appendChild(grup)
+        for (let j = 1; j < btn3[0]+1; j++) {
+        
+
+
+           let button2=document.createElement('button');
+       button2.innerHTML=btn3[j];
+       button2.classList.add('link');
+       grup.appendChild(button2)
+      button2.addEventListener('click',()=>{
+      
+        div.innerHTML=btn3[j];
+      
+      })
+      j++;
+     
+
+       }
+    
+       
+    }
+}
+
+
+
+
+
+
+if(btn4!=0){h4=1;
+    if(btn4[0]==1){
+     
+        button5.innerHTML=btn4[1];
+        button5.classList.add('button')
+        ui.appendChild(button5)
+        button5.addEventListener('click',()=>{
+            button5.style.transition='0.3s'
+            button5.style.backgroundColor="#2d2d2d"
+
+                 button3.style.transition='0.3s'
+            button3.style.backgroundColor=null
+            button.style.transition='0.3s'
+            button.style.backgroundColor=null
+            button8.style.transition='0.3s'
+            button8.style.backgroundColor=null
+            button4.style.transition='0.3s'
+            button4.style.backgroundColor=null
+
+            button6.style.transition='0.3s'
+            button6.style.backgroundColor=null
+            kratko.style.transition='0.3s'
+            kratko.style.backgroundColor=null
+            button7.style.transition='0.3s'
+            button7.style.backgroundColor=null
+      div.innerHTML=btn4[2]
+    })
+    }else{
+     
+        button5.innerHTML='<svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#5f6368"><path d="M146.67-160q-27 0-46.84-20.17Q80-200.33 80-226.67v-506.66q0-26.34 19.83-46.5Q119.67-800 146.67-800H414l66.67 66.67h332.66q26.34 0 46.5 20.16Q880-693 880-666.67v440q0 26.34-20.17 46.5Q839.67-160 813.33-160H146.67Zm0-66.67h666.66v-440H453l-66.67-66.66H146.67v506.66Zm0 0v-506.66V-226.67Z"/></svg>';
+  
+        button5.classList.add('button')
+        ui.appendChild(button5)
+        button5.addEventListener('click',()=>{
+            if(flag4==0){ flag4=+1;grup.classList.add('a');}
+            else{ flag4=0;grup.classList.remove('a');}
+        })
+        let grup=document.createElement('div');
+        dw.addEventListener('click',()=>{if(flag9==0){flag4=0;grup.classList.remove('a');console.log(flag9)}})  
+        grup.classList.add('qw')
+        let f=0;
+        document.body.appendChild(grup)
+        for (let j = 1; j < btn4[0]+1; j++) {
+        
+
+
+           let button2=document.createElement('button');
+       button2.innerHTML=btn4[j];
+       button2.classList.add('link');
+       grup.appendChild(button2)
+      button2.addEventListener('click',()=>{
+      
+        div.innerHTML=btn4[j];
+      
+      })
+      j++;
+     
+
+       }
+    
+       
+    }
+}    
+
+
+
+
+
+
+if(btn5!=0){h5=1;
+    if(btn5[0]==1){
+  
+        button6.innerHTML=btn5[1];
+        button6.classList.add('button')
+        button6.addEventListener('click',()=>{
+            button6.style.transition='0.3s'
+            button6.style.backgroundColor="#2d2d2d"
+
+                 button3.style.transition='0.3s'
+            button3.style.backgroundColor=null
+            button8.style.transition='0.3s'
+            button8.style.backgroundColor=null
+            button.style.transition='0.3s'
+            button.style.backgroundColor=null
+            button5.style.transition='0.3s'
+            button5.style.backgroundColor=null
+            kratko.style.transition='0.3s'
+            kratko.style.backgroundColor=null
+            button4.style.transition='0.3s'
+            button4.style.backgroundColor=null
+
+            button7.style.transition='0.3s'
+            button7.style.backgroundColor=null
+      div.innerHTML=btn5[2]
+    })
+        ui.appendChild(button6)
+       
+    }else{
+   
+        button6.innerHTML='<svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#5f6368"><path d="M146.67-160q-27 0-46.84-20.17Q80-200.33 80-226.67v-506.66q0-26.34 19.83-46.5Q119.67-800 146.67-800H414l66.67 66.67h332.66q26.34 0 46.5 20.16Q880-693 880-666.67v440q0 26.34-20.17 46.5Q839.67-160 813.33-160H146.67Zm0-66.67h666.66v-440H453l-66.67-66.66H146.67v506.66Zm0 0v-506.66V-226.67Z"/></svg>';
+  
+        button6.classList.add('button')
+        ui.appendChild(button6)
+        button6.addEventListener('click',()=>{
+            if(flag5==0){ flag5=+1;grup.classList.add('a');}
+            else{ flag5=0;grup.classList.remove('a');}
+        })
+        let grup=document.createElement('div');
+        dw.addEventListener('click',()=>{if(flag9==0){flag5=0;grup.classList.remove('a');console.log(flag9)}})  
+        grup.classList.add('qw')
+        let f=0;
+        document.body.appendChild(grup)
+        for (let j = 1; j < btn5[0]+1; j++) {
+        
+
+
+           let button2=document.createElement('button');
+       button2.innerHTML=btn5[j];
+       button2.classList.add('link');
+       grup.appendChild(button2)
+      button2.addEventListener('click',()=>{
+      
+        div.innerHTML=btn5[j];
+      
+      })
+      j++;
+     
+
+       }
+    
+       
+    }
+}
+
+
+
+if(btn6!=0){h6=1;
+    if(btn6[0]==1){
+      
+        button7.innerHTML=btn6[1];
+        button7.classList.add('button')
+   
+        ui.appendChild(button7)
+        button7.addEventListener('click',()=>{
+            button7.style.transition='0.3s'
+            button7.style.backgroundColor="#2d2d2d"
+
+                 button3.style.transition='0.3s'
+            button3.style.backgroundColor=null
+            button8.style.transition='0.3s'
+            button8.style.backgroundColor=null
+            button.style.transition='0.3s'
+            button.style.backgroundColor=null
+            button5.style.transition='0.3s'
+            button5.style.backgroundColor=null
+            kratko.style.transition='0.3s'
+            kratko.style.backgroundColor=null
+            button4.style.transition='0.3s'
+            button4.style.backgroundColor=null
+
+            button6.style.transition='0.3s'
+            button6.style.backgroundColor=null
+      div.innerHTML=btn6[2]
+    })
+    }else{
+      
+        button7.innerHTML='<svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#5f6368"><path d="M146.67-160q-27 0-46.84-20.17Q80-200.33 80-226.67v-506.66q0-26.34 19.83-46.5Q119.67-800 146.67-800H414l66.67 66.67h332.66q26.34 0 46.5 20.16Q880-693 880-666.67v440q0 26.34-20.17 46.5Q839.67-160 813.33-160H146.67Zm0-66.67h666.66v-440H453l-66.67-66.66H146.67v506.66Zm0 0v-506.66V-226.67Z"/></svg>';
+        button7.classList.add('button')
+        ui.appendChild(button7)
+        button7.addEventListener('click',()=>{
+            if(flag6==0){ flag6=+1;grup.classList.add('a');}
+            else{ flag6=0;grup.classList.remove('a');}
+        })
+        let grup=document.createElement('div');
+        dw.addEventListener('click',()=>{if(flag9==0){flag6=0;grup.classList.remove('a');console.log(flag9)}})  
+        grup.classList.add('qw')
+        let f=0;
+        document.body.appendChild(grup)
+        for (let j = 1; j < btn6[0]+1; j++) {
+           let button2=document.createElement('button');
+       button2.innerHTML=btn6[j];
+       button2.classList.add('link');
+       grup.appendChild(button2)
+      button2.addEventListener('click',()=>{
+        div.innerHTML=btn6[j];});j++;}}}
+
+
+       
+
+if(btn7!=0){h7=1;
+    if(btn7[0]==1){
+        
+        button8.innerHTML=btn7[1];
+        button8.classList.add('button')
+        ui.appendChild(button8)
+        button8.addEventListener('click',()=>{
+            
+            button8.style.transition='0.3s'
+            button8.style.backgroundColor="#2d2d2d"
+            kratko.style.transition='0.3s'
+            kratko.style.backgroundColor=null
+            button7.style.transition='0.3s'
+            button7.style.backgroundColor=null
+                 button3.style.transition='0.3s'
+            button3.style.backgroundColor=null
+            button.style.transition='0.3s'
+            button.style.backgroundColor=null
+
+            button5.style.transition='0.3s'
+            button5.style.backgroundColor=null
+
+            button6.style.transition='0.3s'
+            button6.style.backgroundColor=null
+
+            button4.style.transition='0.3s'
+            button4.style.backgroundColor=null
+      div.innerHTML=btn7[2]
+    })
+   
+       
+     
+    }else{
+    
+        button8.innerHTML='<svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#5f6368"><path d="M146.67-160q-27 0-46.84-20.17Q80-200.33 80-226.67v-506.66q0-26.34 19.83-46.5Q119.67-800 146.67-800H414l66.67 66.67h332.66q26.34 0 46.5 20.16Q880-693 880-666.67v440q0 26.34-20.17 46.5Q839.67-160 813.33-160H146.67Zm0-66.67h666.66v-440H453l-66.67-66.66H146.67v506.66Zm0 0v-506.66V-226.67Z"/></svg>';
+        button8.classList.add('button')
+        ui.appendChild(button8)
+        button8.addEventListener('click',()=>{
+            if(flag7==0){ flag7=+1;grup.classList.add('a');}
+            else{ flag7=0;grup.classList.remove('a');}
+        })
+        let grup=document.createElement('div');
+        dw.addEventListener('click',()=>{if(flag9==0){flag7=0;grup.classList.remove('a');console.log(flag9)}})  
+        grup.classList.add('qw')
+        let f=0;
+        document.body.appendChild(grup)
+        for (let j = 1; j < btn7[0]+1; j++) {
+           let button2=document.createElement('button');
+       button2.innerHTML=btn7[j];
+       button2.classList.add('link');
+       grup.appendChild(button2)
+      button2.addEventListener('click',()=>{
+        div.innerHTML=btn7[j];
+      });j++;}}}
+
+
+     
+
+
+      dw.addEventListener('click',()=>{if(flag9==0){flag9++;dw.classList.add('ddw');ui.classList.add('slide');div.classList.add('paper2')}else{flag9=0;ui.classList.remove('slide');dw.classList.remove('ddw');div.classList.remove('paper2')}}) 
+
+/*
+let array3=[[[1,2,3],[4,5,6]],[[7,8,9],[10,11]],[[12,13],[14,15,16]]]
+
+console.log(mass[array.indexOf('new')])
+let name='new'
+if(array2[array.indexOf(name)][0]!=0){
+
+for (let l = 1; l < array2[array.indexOf(name)][0]*2; l++) {
+    let button2=document.createElement('button');
+    button2.innerText=array2[array.indexOf(name)][l];
+    
+    document.body.appendChild(button2) 
+    l++;
+    let button3=document.createElement('button');
+    button3.innerText=array2[array.indexOf(name)][l];
+    button3.style.backgroundColor='#00ff00';
+    document.body.appendChild(button3) 
+}
+
+ }else{
+ 
+   let u=array2[array.indexOf(name)][1];
+   
+console.log(u)
+ }
+*/
+
+
+})
+btn1=0;
+btn2=0;
+btn3=0;
+btn4=0;
+btn5=0;
+btn6=0;
+btn7=0;
+
+
+    </script>
+</body>
+</html>
